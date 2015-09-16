@@ -1,0 +1,58 @@
+<div class="container">
+	<div class="jumbotron text-center">
+		<img ng-src="{{info.basics.picture}}" class="img-circle" id="headshot">
+		<h1> {{ info.basics.name }} </h1>
+		<div>
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contactModal">
+				Get in Touch
+			</button>
+		</div>
+		<div>
+			<a href="#about">
+				<button type="button" class="btn btn-info">
+					Résumé
+				</button>
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center" id="myModalLabel">How would you like to get in touch?</h4>
+      </div>
+      <div class="modal-body text-center">
+        <span ng-repeat="profile in info.basics.profiles">
+          <a ng-href="{{profile.url}}" target="_blank">
+            <button type="button" class="btn btn-link">
+              <div class="ng-class: profile.icon;"></div>
+            </button>
+          </a>
+        </span>
+        <span>
+          <a ng-href="mailto:{{info.basics.email}}?Subject=Hello%20there!" target="_top">
+            <button type="button" class="btn btn-link">
+              <div class="icon-email-envelope"></div>
+            </button>
+          </a>
+        </span>
+        <span>
+          <a ng-href="tel:{{info.basics.phone}}" >
+            <button type="button" class="btn btn-link">
+              <div class="icon-call-phone"></div>
+            </button>
+          </a>
+        </span>
+      </div>
+      <div class="modal-footer">
+      	<div class="text-center">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      	</div>
+      </div>
+    </div>
+  </div>
+</div>

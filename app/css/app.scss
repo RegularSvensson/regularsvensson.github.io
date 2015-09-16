@@ -1,0 +1,40 @@
+/* sass */
+
+button {
+	margin: 1%;
+}
+
+h1 {
+	font-family: helvetica;
+}
+
+.icon-facebook {
+    font-size: 40px;
+    display: inline-block; 
+    fill: currentColor; 
+}
+
+.icon-email-envelope {
+	@extend .icon-facebook;
+}
+
+.icon-linkedin {
+	@extend .icon-facebook;
+}
+
+.icon-twitter {
+	@extend .icon-facebook;
+}
+
+.icon-fontawesome-webfont {
+	@extend .icon-facebook;
+}
+
+.icon-call-phone {
+	@extend .icon-facebook;
+}
+
+#headshot {
+	height: 200px;
+	width: 200px;
+}

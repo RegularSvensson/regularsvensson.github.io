@@ -1,0 +1,17 @@
+/* sass */
+button {
+  margin: 1%; }
+
+h1 {
+  font-family: helvetica; }
+
+.icon-facebook, .icon-email-envelope, .icon-linkedin, .icon-twitter, .icon-fontawesome-webfont, .icon-call-phone {
+  font-size: 40px;
+  display: inline-block;
+  fill: currentColor; }
+
+#headshot {
+  height: 200px;
+  width: 200px; }
+
+/*# sourceMappingURL=app.css.map */

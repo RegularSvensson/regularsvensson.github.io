@@ -1,0 +1,107 @@
+{
+  "basics": {
+    "name": "Elias Svensson",
+    "label": "Hustler. Aspiring hacker.",
+    "picture": "/app/img/headshot.jpg",
+    "email": "elias.svensson.1992@gmail.com",
+    "phone": "+46727431990",
+    "website": "http://eliassvensson.com",
+    "summary": "Big fan of startups and artificial intelligence.",
+    "location": {
+      "address": "Lindholmsallén 37",
+      "postalCode": "417 53",
+      "city": "Göteborg",
+      "region": "Sweden"
+    },
+    "profiles": [{
+      "network": "Facebook",
+      "username": "eejs92",
+      "url": "https://www.facebook.com/eejs92",
+      "icon": "icon-facebook"
+    }, {
+    "network": "LinkedIn",
+    "username": "eliassvensson",
+    "url": "https://se.linkedin.com/in/eliassvensson",
+    "icon": "icon-linkedin"
+    }, {
+    "network": "Twitter",
+    "username": "RegularSvensson",
+    "url": "https://github.com/RegularSvensson/",
+    "icon": "icon-twitter"
+    }]
+  },
+  "work": [{
+    "company": "Company1",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "responsibilities": "Description...",
+    "companyType": "industry..."
+  }, {
+    "company": "Company2",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "responsibilities": "Description...",
+    "companyType": "industry..."
+    }],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "website": "http://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "responsibilities": "Description...",
+    "companyType": "industry..."
+  }],
+  "education": [{
+    "institution": "University",
+    "area": "Software Development",
+    "studyType": "Bachelor",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "gpa": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+}

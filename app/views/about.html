@@ -1,0 +1,42 @@
+<div>
+	<a href="#home">
+		<button type="button" class="btn btn-info">
+			Back
+		</button>
+	</a>
+	<h1>Personal information</h1>
+	<div class="well">
+		<p><b>Name:</b> {{info.basics.name}}</p>
+		<p><b>Occupation:</b> {{ info.basics.label }}</p>
+		<p><b>Adress:</b><span ng-repeat="(key, value) in info.basics.location"> {{value}} </span></p>
+		<p><b>Phone:</b> {{ info.basics.phone }} </p>
+		<p><b>Email:</b> {{ info.basics.email }} </p>
+		<p><b>Interests:</b> {{ info.basics.summary }} </p>
+	</div>
+
+	<h1>Work experience</h1>
+	<div ng-repeat="work in info.work" class="well">
+		<p><b>Dates:</b> {{work.startDate}} - {{work.endDate}}</p>
+		<p><b>Company:</b> {{ work.company }} </p>
+		<p><b>Position:</b> {{ work.position }} </p>
+		<p><b>Responsibilities:</b> {{ work.responsibilities }} </p>
+		<p><b>Type of company:</b> {{ work.companyType }} </p>
+		<p><b>Company Website:</b> {{ work.website }} </p>
+	</div>
+	<h1>Volunteer work</h1>
+	<div ng-repeat="volunteer in info.volunteer" class="well">
+		<p><b>Dates:</b> {{volunteer.startDate}} - {{volunteer.endDate}}</p>
+		<p><b>Organization:</b> {{ volunteer.organization }} </p>
+		<p><b>Position:</b> {{ volunteer.position }} </p>
+		<p><b>Responsibilities:</b> {{ volunteer.responsibilities }} </p>
+		<p><b>Type of company:</b> {{ volunteer.companyType }} </p>
+		<p><b>Company Website:</b> {{ volunteer.website }} </p>	
+	</div>
+	<h1>Education</h1>
+	<div ng-repeat="education in info.education" class="well">
+		<p><b>Dates:</b> {{ education.startDate }} - {{ education.endDate }} </p>
+		<p><b>Institution:</b> {{ education.institution }} </p>
+		<p><b>Area:</b> {{ education.area }} </p>
+		<p><b>Study type:</b> {{ education.studyType }} </p>
+	</div>
+</div>
